@@ -4,58 +4,45 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5bba12d-19be-4802-9de2-fc8c2ea3b7f8" name="Changes" comment="Unit 1 Pathway 3 Step 5&#10;&#10;Compose article">
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/.idea/migrations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/androidTest/java/io/yaroslavche/learntogether/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/java/io/yaroslavche/learntogether/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/java/io/yaroslavche/learntogether/ui/theme/Color.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/java/io/yaroslavche/learntogether/ui/theme/Theme.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/java/io/yaroslavche/learntogether/ui/theme/Type.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/drawable-nodpi/bg_compose_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/app/src/test/java/io/yaroslavche/learntogether/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/LearnTogether/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a5bba12d-19be-4802-9de2-fc8c2ea3b7f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/androidTest/java/io/yaroslavche/taskmanager/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/java/io/yaroslavche/taskmanager/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/java/io/yaroslavche/taskmanager/ui/theme/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/java/io/yaroslavche/taskmanager/ui/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/java/io/yaroslavche/taskmanager/ui/theme/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/app/src/test/java/io/yaroslavche/taskmanager/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/TaskManager/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721836771197</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Unit 1 Pathway 3 Step 5&#10;&#10;Compose article. Before solution">
+      <option name="closed" value="true" />
+      <created>1721841416188</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721841416188</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +128,8 @@
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <MESSAGE value="Unit 1 Pathway 3 Step 3" />
     <MESSAGE value="Unit 1 Pathway 3 Step 4&#10;&#10;Add images to your Android app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit 1 Pathway 3 Step 4&#10;&#10;Add images to your Android app" />
+    <MESSAGE value="Unit 1 Pathway 3 Step 5&#10;&#10;Compose article" />
+    <MESSAGE value="Unit 1 Pathway 3 Step 5&#10;&#10;Compose article. Before solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit 1 Pathway 3 Step 5&#10;&#10;Compose article. Before solution" />
   </component>
 </project>
