@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -45,13 +46,12 @@ fun ComposeQuadrant(label: String, description: String, color: Color, modifier: 
         horizontalAlignment = Alignment.CenterHorizontally,
         modifier = modifier
             .fillMaxSize()
-            .background(color = color)
-            .padding(16.dp)
+            .background(color)
+            .padding(16.dp),
         ) {
             Text(
                 text = label,
                 fontWeight = FontWeight.Bold,
-                textAlign = TextAlign.Center,
                 modifier = Modifier
                     .padding(bottom = 16.dp)
             )
@@ -64,51 +64,33 @@ fun ComposeQuadrant(label: String, description: String, color: Color, modifier: 
 
 @Composable
 fun ComposeQuadrants(modifier: Modifier = Modifier) {
-    Column(
-        verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally,
-        modifier = modifier
-    ) {
-        Row(
-            horizontalArrangement = Arrangement.Center,
-            verticalAlignment = Alignment.CenterVertically,
-            modifier = modifier
-                .weight(0.5F)
-        ) {
+    Column(Modifier.fillMaxWidth()) {
+        Row(Modifier.weight(1f)) {
             ComposeQuadrant(
                 label = stringResource(R.string.text_composable_label),
                 description = stringResource(R.string.text_composable_description),
                 color = Color(0xFFEADDFF),
-                modifier = modifier
-                    .weight(0.5F)
+                modifier = Modifier.weight(1f)
             )
             ComposeQuadrant(
                 label = stringResource(R.string.image_composable_label),
                 description = stringResource(R.string.image_composable_description),
                 color = Color(0xFFD0BCFF),
-                modifier = modifier
-                    .weight(0.5F)
+                modifier = Modifier.weight(1f)
             )
         }
-        Row(
-            horizontalArrangement = Arrangement.Center,
-            verticalAlignment = Alignment.CenterVertically,
-            modifier = modifier
-                .weight(0.5F)
-        ) {
+        Row(Modifier.weight(1f)) {
             ComposeQuadrant(
                 label = stringResource(R.string.row_composable_label),
                 description = stringResource(R.string.row_composable_description),
                 color = Color(0xFFB69DF8),
-                modifier = modifier
-                    .weight(0.5F)
+                modifier = Modifier.weight(1f)
             )
             ComposeQuadrant(
                 label = stringResource(R.string.column_composable_label),
                 description = stringResource(R.string.column_composable_description),
                 color = Color(0xFFF6EDFF),
-                modifier = modifier
-                    .weight(0.5F)
+                modifier = Modifier.weight(1f)
             )
         }
     }
