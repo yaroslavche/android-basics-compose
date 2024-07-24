@@ -4,57 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5bba12d-19be-4802-9de2-fc8c2ea3b7f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/.idea/migrations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/androidTest/java/io/yaroslavche/composequadrant/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/java/io/yaroslavche/composequadrant/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/java/io/yaroslavche/composequadrant/ui/theme/Color.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/java/io/yaroslavche/composequadrant/ui/theme/Theme.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/java/io/yaroslavche/composequadrant/ui/theme/Type.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/app/src/test/java/io/yaroslavche/composequadrant/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unit1/Pathway3/ComposeQuadrant/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a5bba12d-19be-4802-9de2-fc8c2ea3b7f8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +71,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721841416188</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Unit 1 Pathway 3 Step 5.4&#10;&#10;Compose quadrant. Before solution">
+      <option name="closed" value="true" />
+      <created>1721847688531</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721847688531</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +99,7 @@
     <MESSAGE value="Unit 1 Pathway 3 Step 4&#10;&#10;Add images to your Android app" />
     <MESSAGE value="Unit 1 Pathway 3 Step 5&#10;&#10;Compose article" />
     <MESSAGE value="Unit 1 Pathway 3 Step 5&#10;&#10;Compose article. Before solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit 1 Pathway 3 Step 5&#10;&#10;Compose article. Before solution" />
+    <MESSAGE value="Unit 1 Pathway 3 Step 5.4&#10;&#10;Compose quadrant. Before solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit 1 Pathway 3 Step 5.4&#10;&#10;Compose quadrant. Before solution" />
   </component>
 </project>

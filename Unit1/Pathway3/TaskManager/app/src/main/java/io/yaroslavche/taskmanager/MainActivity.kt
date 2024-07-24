@@ -5,8 +5,11 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -14,6 +17,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -27,7 +31,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             TaskManagerTheme {
                 Surface(modifier = Modifier.fillMaxSize()) {
-                    CompletedScreen(text = "All tasks completed", helpText = "Nice work!")
+                    CompletedScreen()
                 }
             }
         }
@@ -35,27 +39,28 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun CompletedScreen(text: String, helpText: String, modifier: Modifier = Modifier) {
+fun CompletedScreen() {
     val image = painterResource(R.drawable.ic_task_completed)
-    Column {
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .fillMaxHeight(),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
         Image(
             painter = image,
-            contentDescription = null,
-            modifier = Modifier
-                .align(Alignment.CenterHorizontally)
+            contentDescription = null
         )
         Text(
-            text = text,
+            text = stringResource(R.string.all_tasks_completed),
             fontWeight = FontWeight.Bold,
-            modifier = modifier
+            modifier = Modifier
                 .padding(top = 24.dp, bottom = 8.dp)
-                .align(Alignment.CenterHorizontally)
         )
         Text(
-            text = helpText,
+            text = stringResource(R.string.nice_work),
             fontSize = 16.sp,
-            modifier = modifier
-                .align(Alignment.CenterHorizontally)
         )
     }
 }
@@ -64,6 +69,6 @@ fun CompletedScreen(text: String, helpText: String, modifier: Modifier = Modifie
 @Composable
 fun GreetingPreview() {
     TaskManagerTheme {
-        CompletedScreen(text = "All tasks completed", helpText = "Nice work!")
+        CompletedScreen()
     }
 }
