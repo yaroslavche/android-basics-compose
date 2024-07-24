@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Business Card</string>
+    <string name="full_name">Full Name</string>
+    <string name="title">Title</string>
+    <string name="phoneNumber">+00 (00) 000 000</string>
+    <string name="socialMediaHandle">\@socialmediahandle</string>
+    <string name="email">email@domail.com</string>
+</resources>
