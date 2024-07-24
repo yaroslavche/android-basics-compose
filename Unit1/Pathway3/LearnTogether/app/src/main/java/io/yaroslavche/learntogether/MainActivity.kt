@@ -5,10 +5,10 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -29,63 +29,58 @@ class MainActivity : ComponentActivity() {
         setContent {
             LearnTogetherTheme {
                 Surface(
+                    color = MaterialTheme.colorScheme.background,
                     modifier = Modifier
                         .fillMaxSize()
                 ) {
-                    Article(
-                        icon = painterResource(R.drawable.bg_compose_background),
-                        name = stringResource(R.string.name),
-                        description = stringResource(R.string.description),
-                        content = stringResource(R.string.content)
-                    )
+                    ComposeArticleApp()
                 }
             }
         }
     }
 }
+@Composable
+fun ComposeArticleApp() {
+    ArticleCard(
+        title = stringResource(R.string.name),
+        shortDescription = stringResource(R.string.description),
+        longDescription = stringResource(R.string.content),
+        imagePainter = painterResource(R.drawable.bg_compose_background)
+    )
+}
 
 @Composable
-fun Article(icon: Painter, name: String, description: String, content: String, modifier: Modifier = Modifier) {
-    Box(
-        modifier = modifier
-            .fillMaxSize()
-    ) {
-        Column {
-            Image(
-                painter = icon,
-                contentDescription = null
-            )
-            Text(
-                text = name,
-                fontSize = 24.sp,
-                modifier = Modifier
-                    .padding(16.dp)
-            )
-            Text(
-                text = description,
-                textAlign = TextAlign.Justify,
-                modifier = modifier
-                    .padding(horizontal = 16.dp)
-            )
-            Text(
-                text = content,
-                textAlign = TextAlign.Justify,
-                modifier = modifier
-                    .padding(16.dp)
-            )
-        }
+private fun ArticleCard(
+    title: String,
+    shortDescription: String,
+    longDescription: String,
+    imagePainter: Painter,
+    modifier: Modifier = Modifier,
+) {
+    Column(modifier = modifier) {
+        Image(painter = imagePainter, contentDescription = null)
+        Text(
+            text = title,
+            modifier = Modifier.padding(16.dp),
+            fontSize = 24.sp
+        )
+        Text(
+            text = shortDescription,
+            modifier = Modifier.padding(start = 16.dp, end = 16.dp),
+            textAlign = TextAlign.Justify
+        )
+        Text(
+            text = longDescription,
+            modifier = Modifier.padding(16.dp),
+            textAlign = TextAlign.Justify
+        )
     }
 }
 
 @Preview(showBackground = true)
 @Composable
-fun ArticlePreview() {
+fun ComposeArticleAppPreview() {
     LearnTogetherTheme {
-        Article(
-            icon = painterResource(R.drawable.bg_compose_background),
-            name = stringResource(R.string.name),
-            description = stringResource(R.string.description),
-            content = stringResource(R.string.content)
-        )
+        ComposeArticleApp()
     }
 }
